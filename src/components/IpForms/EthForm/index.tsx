@@ -69,7 +69,7 @@ const EthForm: React.FC = () => {
           <button onClick={open}>Connect wallet</button>
         ) : chain?.unsupported ? (
           <button onClick={() => switchNetwork && switchNetwork(chainId)}>
-            Switch to BSC Testnet
+            Switch to Ethereum
           </button>
         ) : (
           <button onClick={handleOpenToggle}>Deposit</button>

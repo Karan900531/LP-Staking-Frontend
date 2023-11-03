@@ -71,12 +71,12 @@ const StakeLpToken: React.FC<IStacke> = ({ onClose, balance, userInfo }) => {
             </h5>
           </div>
           <div>
-            <p>
+            <p className="mobdiffer">
               Balance {new Intl.NumberFormat("en-US", { maximumFractionDigits: 6 }).format(balance)}{" "}
               LP
             </p>
             <div
-              className="max-btn"
+              className="max-btn mobdiffer"
               onClick={() => formik.setFieldValue("amount", balance.toString())}
             >
               <h6>Max</h6>

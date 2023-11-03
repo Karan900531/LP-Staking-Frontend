@@ -98,3 +98,32 @@
     }
   }
 }
+
+
+
+
+
+@media (max-width: 767px) {
+  .stakelp-token-wrapper {
+    padding: 10px;
+
+  max-width: 300px;
+  margin-left: 3px;
+
+  }
+
+
+  .stakelp-token-head {
+    max-width: 95%;
+
+  }
+
+  .stakelp-flex-item {
+    max-width: 95%;
+
+  }
+
+  .mobdiffer, .max-btn{
+    margin-left: -120px;
+  }
+}

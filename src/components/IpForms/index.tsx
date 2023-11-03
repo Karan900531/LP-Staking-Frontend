@@ -15,7 +15,6 @@ const IpForm: React.FC = () => {
     >
       <div>
         <EthForm />
-        <MoreInformation />
       </div>
       {/* <div>
         <TokenDetails />
