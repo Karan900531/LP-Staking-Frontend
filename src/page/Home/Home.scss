@@ -1,0 +1,224 @@
+.blocktop {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 0px rgba(189, 159, 58, 0.6);
+}
+
+.newgridupdate{
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ gap:30px;
+ margin-top: 30px; 
+}
+
+@media (max-width: 767px) {
+  
+.newgridupdate{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:30px;
+  margin-top: 30px; 
+ }
+ 
+}
+
+.topdivchangedstyle {
+  width: 100%;
+  height: auto;
+
+  padding-top: 30px;
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  .blockhead {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+
+  .blocktop {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(189, 159, 58, 0.6);
+
+    p {
+      font-size: 14px;
+    }
+
+    h2 {
+      font-weight: 500;
+    }
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    height: auto;
+
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    .blockhead {
+      width: 95%;
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 30px;
+    }
+
+    .blocktop {
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 7px 0px rgba(189, 159, 58, 0.6);
+
+      p {
+        font-size: 14px;
+      }
+
+      h2 {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.innerstakecontainers {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 0px rgba(189, 159, 58, 0.6);
+
+  h2 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 22px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+  }
+  hr {
+    color: var(--over-all-bg-clr);
+    margin: 20px 0;
+  }
+
+  .divtwo {
+    display: grid;
+    grid-template-columns: 40% 15% 40%;
+    column-gap: 10px;
+    padding: 0 20px 0 20px;
+  }
+
+  .divthree {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    padding: 0 20px 0 20px;
+  }
+
+  .divthreemain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newblock {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .arrowtag {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #3aa54d;
+    box-shadow: 0px 0px 10px rgba(58, 165, 77, 0.6);
+  }
+
+  .searbarh {
+    background: var(--drop-down-clr);
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 50px;
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    @media (max-width: 992px) {
+    }
+
+    input {
+      outline: none;
+      border: none;
+      background: transparent;
+      padding: 12px 12px;
+      color: var(--white-clr);
+      width: 100%;
+
+      font-size: 14px;
+      &::placeholder {
+        color: var(--search-clr);
+      }
+      /* Styles for the .searbar when input inside it is in focus */
+    }
+  }
+
+  .web3-btn {
+    display: flex;
+    justify-content: center;
+    button {
+      background-color: #bd9f3a;
+      color: #fff;
+      border: 1px solid #fff;
+      outline: none;
+      font-family: var(--font-medium);
+      border-radius: 7px;
+      padding: 12px 14px;
+      width: 100%;
+      margin: 30px 0;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+
+    .divthree {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 1fr;
+      column-gap: 10px;
+      padding: 0 20px 0 20px;
+    }
+
+    
+    .web3-btn {
+      display: flex;
+      justify-content: center;
+      button {
+        background-color: #bd9f3a;
+        color: #fff;
+        border: 1px solid #bd9f3a;
+        outline: none;
+        font-family: var(--font-medium);
+        border-radius: 12px;
+        padding: 12px 14px;
+        width: 100%;
+        margin: 30px 0;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.stakelp-token-wrapper {
+  padding: 24px;
+  .stakelp-token-head {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    h1 {
+      font-size: 26px;
+    }
+  }
+  .stakelp-flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+    p {
+      color: #fff;
+      font-size: 14px;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+  }
+  .stake-box {
+    border: 0.5px solid #666c76;
+    border-radius: 8px;
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    p {
+      color: #fff;
+      font-size: 14px;
+    }
+    h5 {
+      input {
+        font-size: 21px;
+        margin-top: 12px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+
+        &::placeholder {
+          color: #666c76;
+        }
+      }
+    }
+    .max-btn {
+      background: #bd9f3a;
+      width: 38px;
+      padding: 4px;
+      border-radius: 7px;
+      margin-top: 12px;
+      margin-left: 50px;
+      cursor: pointer;
+
+      h6 {
+        font-size: 11px;
+        text-align: center;
+      }
+    }
+  }
+  .flex-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 18px 0;
+    button {
+      background-color: #bd9f3a;
+      color: #fff;
+      border: 1px solid #fff;
+      outline: none;
+      font-family: var(--font-medium);
+      border-radius: 7px;
+      padding: 12px 14px;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+  .get-PATRICK-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-top: 1px solid #666c76;
+    p {
+      color: #bd9f3a;
+      font-size: 16px;
+      margin-top: 17px;
+    }
+    svg {
+      margin-top: 17px;
+      margin-bottom: 6px;
+    }
+  }
+}

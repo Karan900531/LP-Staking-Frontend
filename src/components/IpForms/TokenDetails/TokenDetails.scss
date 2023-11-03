@@ -1,0 +1,28 @@
+.tokenDetails-wrapper {
+  width: 384px;
+  height: 188px;
+  box-shadow: 0px 0px 7px 0px rgba(189, 159, 58, 0.6);
+  border-radius: 16px;
+  padding: 20px;
+  h1 {
+    font-size: 20px;
+  }
+  .token-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .token-name {
+      margin-top: 6px;
+      p {
+        font-size: 14px;
+        color: #fff;
+        margin-top: 6px;
+      }
+      h5 {
+        font-size: 15px;
+        text-align: right;
+        margin-top: 6px;
+      }
+    }
+  }
+}
